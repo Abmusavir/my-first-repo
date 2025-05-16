@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/59f35df058.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                   
+                </ul>
+                
+            </nav>
+            <div class="header-text">
+                <p>Website Developer</p>
+                <h1>Hi, i'm <span> Ab Musavir </span> from  Hyd</h1>
+            </div>
+        </div>
+    </div>
+    <!------about------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user2.jpg" height="500px" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Syed Abdul Musavir Khundmiri, an aspiring Artificial Intelligence and Machine Learning (AIML) engineer, currently pursuing my undergraduate degree and expected to graduate in 2026. I am passionate about using AI and technology to solve real-world problems and make a positive impact.
+
+                        With a strong foundation in HTML, CSS, and MySQL, I have hands-on experience in both front-end and back-end development. I am continually expanding my skill set to include advanced AI and machine learning concepts, and I enjoy applying these technologies to practical, meaningful projects.
+                        
+                        My goal is to become a leading engineer in the AIML field and contribute to innovative solutions that shape the future of intelligent systems.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Artificial Intelligence & Machine Learning</span><br>(In progress — actively learning and applying)</li>
+                            <li><span>Web Development</span><br>HTML
+                                – CSS
+                                – MySQL</li>
+                            <li><span>Other</span><br> Problem-solving, Team collaboration, Project development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Real Estate Advertising Website — Full Stack Developer - 2025</span><br>Developed a responsive front-end interface using HTML and CSS to create an intuitive property listing platform.
+
+                                Integrated MySQL as the back-end database to manage property listings and user data effectively.
+                                
+                                Gained hands-on experience in building a complete web application from front-end design to back-end development.</li>
+                            <li><span>AI Lab Practical Projects — Student Developer - 2024/2025</span><br>Applied core concepts of Artificial Intelligence and Machine Learning through lab assignments and projects.
+
+                                Built models and algorithms for AI-related tasks, enhancing problem-solving and analytical skills.
+                                
+                                Strengthened knowledge in AI workflows, data processing, and model evaluation.
+                                
+                                </li>
+                            <li><span>Handwritten Digit Recognition (Ongoing Project) — Machine Learning Enthusiast 2025 (In Progress)</span><br>Currently working on a machine learning project to recognize handwritten digits using classification algorithms.
+
+                                Exploring neural networks and data preprocessing techniques to develop an accurate prediction model.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Bachelor of Engineering in Artificial Intelligence and Machine Learning</span><br>Nawab Shah Alam Khan College of Engineering and Technology, Hyderabad
+                                Expected Graduation: 2026
+                                
+                                Pursuing a comprehensive curriculum focused on Artificial Intelligence, Machine Learning, Data Science, and Software Engineering.
+                                
+                                Building strong foundations in algorithms, data structures, programming, and AI model development.
+                                
+                                Actively engaged in practical projects and lab work to apply theoretical concepts to real-world problems.</li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----services------ -->
+     <div id="services">
+        <div class="container">
+           <h1 class="sub-title">My Services</h1> 
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I design and develop responsive, user-friendly websites using HTML, CSS, and MySQL. Whether it’s a simple landing page or a functional web application, I can build clean and efficient front-end and back-end solutions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Design & Management</h2>
+                    <p>I create and manage relational databases using MySQL to ensure secure, organized, and efficient data storage for web applications and business needs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-brain"></i>
+                    <h2>AI & Machine Learning Solutions (In Progress)</h2>
+                    <p>As I advance my expertise in Artificial Intelligence and Machine Learning, I offer development of basic machine learning models and AI-powered solutions such as classification, prediction, and data analysis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-----portfolio-->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="mywork.jpg">
+                    <div class="layer">
+                        <h3>Real Estate Advertising Website</h3>
+                        <p>I developed a responsive, user-friendly web platform to showcase property listings. By utilizing MySQL for the back-end, I was able to manage property data effectively, making the website scalable for future expansions. This project helped me refine my web development skills and introduced me to the process of integrating databases with front-end designs.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="mywork2.0.jpg">
+                    <div class="layer">
+                        <h3>Handwritten Digit Recognition (In Progress)</h3>
+                        <p>Currently working on a machine learning project to recognize handwritten digits using neural networks. This project involves exploring different machine learning models, data preprocessing techniques, and performance evaluation to improve the accuracy of predictions. It’s a great hands-on application of what I am learning in my AIML course.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="mywork3.jpg">
+                    <div class="layer">
+                        <h3>Web Development and Database Management</h3>
+                        <p>I have worked on building functional websites, including creating database-driven web applications with MySQL. I ensure that the back-end is optimized for data integrity and user experience, while the front-end is clean and engaging.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+     <!------Contact------>
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> syedabdulmusavir99@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 7702713321 </p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/abdul_musavir_19/?__pwa=1"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/syed-abdul-musavir-334648301/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="Syed Abdul Musavir Khundmiri.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @AbMusavir Made <i class="fa-solid fa-heart"></i> by Abdul Musavir</p>
+        </div>
+     </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzT6F3Fw6Xq2Pry3G2_OiiqzWUO-_AAqALvTU77chlfwereZXmLXXS-Ps7DOanMt5ujNg/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
